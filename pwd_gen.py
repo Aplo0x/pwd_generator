@@ -40,7 +40,7 @@ def main():
 
     pwds = gen_multiple_pwd(num_pwd, length, use_uppercase, use_digits, use_special)
 
-    print("\nGenerated pwds:")
+    print("\nGenerated passwords:")
     for i, pwd in enumerate(pwds, start=1):
         print(f"Password {i}: {pwd}")
 
